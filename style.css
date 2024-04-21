@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    font-family: sans-serif;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    width: 10%;
+    font-size: 20px;
+    font-family: "Jacquard 12 Charted", system-ui;
+    font-style: italic;
+}
+
+#mapping{
+    list-style-type: none;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mapping li{
+    display: inline;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#mapping li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#contact-box{
+    height: 100%;
+    width: 10%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#boxing{
+    display: flex;
+    padding: 0 5% 5% 5%;
+    
+}
+
+img{
+    width: 80%;
+    margin: 2% 10% 5% 10%;
+}
+
+.article-title{
+    text-align: center;
+    font-size: 25px;
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+.article-desc{
+    text-align: center;
+    margin: 15px auto;
+    padding: 10px;
+    width: 80%;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+}
+
+img:hover{
+    width: 90%;
+    margin: 0 5% 2.5% 5%;
+}
+
+img:hover ~ .article-title{
+    font-size: 30px;
+}
+
+img:hover ~ .article-desc{
+    font-size: 18px;
+}
